@@ -160,6 +160,10 @@ browseraction.installButtonClickHandlers_ = function() {
   $('#quick_add_button').on('click', function() {
     browseraction.addNewEventIntoCalendar_();
   });
+
+  $('#clear_quick_add_button').on('click', function() {
+    $('#quick-add-event-title').val('').focus();
+  });
 };
 
 
