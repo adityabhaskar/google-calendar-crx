@@ -1,3 +1,5 @@
 .DS_Store
 bin/*
 node_modules/*
+/gcal.sublime-project
+/gcal.sublime-workspace
